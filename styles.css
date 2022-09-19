@@ -103,6 +103,7 @@ section div {
     margin-top: 8px;
     background-color: #262629;
     padding: 14px;
+    padding-bottom: 40px;
     border-radius: 13px;
     display: flex;
     flex-direction: column;
@@ -115,6 +116,12 @@ main {
     width: 90%;
     margin: auto;
     display: grid;
+}
+
+header div:hover, 
+section li:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
 }
 
 
