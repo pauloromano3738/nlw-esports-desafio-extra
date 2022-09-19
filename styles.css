@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./assets/images/bg.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+    margin-bottom: 100px;
+}
+
+body * {
+    font-family: 'Inter', sans-serif;
+    line-height: 160%;
+}
+
+header {
+    height: 120px;
+    margin-top: 32px;
+}
+
+header img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+header a {
+    width: 120px;
+    margin: auto;
+    background-image: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%);
+    border-radius: 50%;
+    display: flex;
+    padding: 4px;
+}
+
+section {
+    color: #FFF;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+    max-width: 1000px;
+    background-image: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%);
+}
+
+section h2 {
+    letter-spacing: -0.47px;
+}
+
+section p {
+    color: #C1C1C1;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.series-list {
+    margin-top: 24px;
+}
+
+.series-list img {
+    width: 800px;
+    height: 295px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.characters-list img {
+    width: 140px;
+    height: 180px;
+    object-fit: cover;
+    margin: 16px;
+    border-radius: 16px;
+}
+
+.queen, .ryan, .noir {
+    object-position: 80%;
+}
+
+.soldier {
+    object-position: 30%;
+}
+
+.rick {
+    object-position: 20%;
+}
+
+.breakingbad {
+    object-position: 50% 40%;
+}
+
+ul {
+    list-style: none;
+}
+
+.characters-list {
+    display: flex;
+}
+
+section div {
+    margin-top: 8px;
+    background-color: #262629;
+    padding: 14px;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+    display: grid;
+}
+
+
+
+
+
